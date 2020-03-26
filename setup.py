@@ -10,12 +10,7 @@ except ImportError:
 
 install_requires = ['mock']
 lint_requires = ['pep8', 'pyflakes']
-tests_require = ['']
-
-if sys.version_info < (2, 7):
-    tests_require.append('unittest2')
-else:
-    tests_require.append('unittest')
+tests_require = ['unittest']
 
 setup_requires = []
 
